@@ -174,7 +174,7 @@ nav .btn{
 
 
 #note{
-    padding-top: 50px;
+    padding: 120px 120px 0px 120px;
 }
 
 #note .note-container{
@@ -251,3 +251,73 @@ nav .btn{
     text-align: center;
 }
 
+
+
+#brain{
+    max-width: 1600px;
+    background-color: #FFFFFF;
+    padding: 120px;
+}
+
+#brain .brain-container{
+    display: flex;
+    gap: 60px;
+    max-width: 1360px;
+}
+
+.brain-container img{
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+.brain-container .brain-heading{
+    max-width: 700px;
+    gap: 40px;
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
+
+.brain-container .brain-heading h6{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-heading h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-heading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain-container .brain-heading ul{
+    gap: 16px;
+    list-style: none;
+}
+
+.brain-container .brain-heading li{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    gap: 6px;
+}
+
+.brain-container .brain-heading li img{
+    max-width: 16px;
+    padding: 1.88px;
+}
