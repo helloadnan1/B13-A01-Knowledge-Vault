@@ -175,6 +175,7 @@ nav .btn{
 
 #note{
     padding: 120px 120px 0px 120px;
+    background-color: #F7F6F2;
 }
 
 #note .note-container{
@@ -209,6 +210,7 @@ nav .btn{
 #note .note-container .note-box{
     display: flex;
     gap: 24px;
+    max-width: 1360px;
 }
 
 #note .note-container .note-box .note-card{
@@ -222,6 +224,7 @@ nav .btn{
     box-shadow: 0 0 8px 0 #0000000F;
     align-items: center;
     justify-content: center;
+    border-bottom: none;
 
 }
 
@@ -320,4 +323,58 @@ nav .btn{
 .brain-container .brain-heading li img{
     max-width: 16px;
     padding: 1.88px;
+}
+
+
+#think{
+    max-width: 1600px;
+    background-color: #FFFFFF;
+    padding: 2px 120px 120px 120px;
+    gap: 40px;
+}
+
+#think .think-container{
+    max-width: 1360px;
+    border-radius: 12px;
+    padding: 80px 40px 80px 40px;
+    gap: 24px;
+    background-color: #F7F6F2;
+}
+
+
+#think .think-container .think-content{
+    width: 1280px;
+    gap: 16px;
+    text-align: center;
+}
+
+#think .think-container .think-content h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+
+#think .think-container .think-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+/* #think .think-container .think-content .think-button{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+} */
+
+#think .think-container .think-content .btn{
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
 }
